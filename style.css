@@ -40,14 +40,14 @@ ul{
 .hamburger{
     position: fixed;
     top: 15px;
-    right: 15px;
+    left: 15px;
     width: 40px;
     height: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    z-index: auto;
+    z-index: 100;
 }
 
 .bar{
@@ -59,16 +59,19 @@ ul{
 
 /*メニューのスタイル*/
 .menu{
-    position: fixed;
+    position: absolute;
     top: 0;
-    right: -100%;
+    left: 0;
     width: 250px;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
+    opacity: 0;
     padding-top: 60px;
     text-align: center;
-    transition: right 0.3s;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    z-index: 50;
 }
 
 .menu a{
@@ -85,8 +88,9 @@ ul{
 
 /*メニューが開いた時の状態*/
 .menu.active{
-    right: 0;
     opacity: 0.5;
+    transform: translateY(0);
+    visibility: visible;
 }
 
 /*ハンバーガーアイコンのアニメーション*/
