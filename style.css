@@ -67,6 +67,7 @@ ul{
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     opacity: 0;
+    transform: translateY(-20px);
     padding-top: 60px;
     text-align: center;
     visibility: hidden;
@@ -99,11 +100,11 @@ ul{
 }
 
 .hamburger.active .bar:nth-child(1){
-    transform: rotate(45deg) translate(18px, -10px);
+    transform: rotate(-45deg) translate(-7px, 0px);
     width: 60%;
 }
 
 .hamburger.active .bar:nth-child(3){
-    transform: rotate(-45deg) translate(18px, 10px);
+    transform: rotate(45deg) translate(-7px, 0px);
     width: 60%;
 }
