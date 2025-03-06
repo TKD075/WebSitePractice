@@ -149,7 +149,7 @@ ul{
     width: 60%;
     margin: 50px auto;
     position: relative;
-    z-index: 50;
+    z-index: 40;
 }
 
 .year{
