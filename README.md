@@ -1,5 +1,5 @@
 # WebSitePractice
-HTML/CSSとJavaScriptを使ったウェブサイトの作成を練習するリポジトリ
+HTML/CSSとJavaScriptを使ったウェブサイトの作成を練習するリポジトリ<br>
 作成したものを閲覧できるリンク
 https://tkd075.github.io/WebSitePractice/
 
