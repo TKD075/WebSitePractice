@@ -78,10 +78,10 @@ ul{
 /*新しいタブで開くマーク(アイコン)*/
 .icon{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     stroke: currentColor;
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
 }
 
 /*ハンバーガーアイコン*/
