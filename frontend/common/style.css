@@ -76,8 +76,12 @@ ul{
 }
 
 /*新しいタブで開くマーク(アイコン)*/
-.fas.fa-up-right-from-square i{
-    font-size: 5px;
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    stroke: currentColor;
+    width: 16px;
+    height: 16px;
 }
 
 /*ハンバーガーアイコン*/
