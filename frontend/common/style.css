@@ -76,7 +76,7 @@ ul{
 }
 
 /*新しいタブで開くマーク(アイコン)*/
-i.fa-up-right-from-square {
+.fa-up-right-from-square i{
     font-size: 18px;
 }
 
