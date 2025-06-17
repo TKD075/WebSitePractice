@@ -75,6 +75,11 @@ ul{
     text-align: left;
 }
 
+/*新しいタブで開くマーク(アイコン)*/
+.fas fa-up-right-from-square{
+    font-size: 30px;
+}
+
 /*ハンバーガーアイコン*/
 .hamburger{
     position: fixed;
