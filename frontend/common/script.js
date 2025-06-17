@@ -1,6 +1,6 @@
 // 共通のヘッダーを読み込む
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("/frontend/common/header.html")
+    fetch("/WebSitePractice/frontend/common/header.html")
         .then(response => response.text())
         .then(data => {
             document.body.insertAdjacentHTML("afterbegin", data);   // ページの先頭に挿入
