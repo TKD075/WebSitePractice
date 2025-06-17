@@ -135,7 +135,7 @@ ul{
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/*新しいタブで開くマーク(アイコン)*/
+/*新しいタブで開くマーク(アイコン)
 .menu icon{
     display: inline-block;
     vertical-align: top;
@@ -143,6 +143,7 @@ ul{
     width: 4px;
     height: 4px;
 }
+*/
 
 /*メニューが開いた時の状態*/
 .menu.active{
