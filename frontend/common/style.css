@@ -76,8 +76,8 @@ ul{
 }
 
 /*新しいタブで開くマーク(アイコン)*/
-.fas i{
-    font-size: 5px;
+i.fa-up-right-from-square {
+    font-size: 18px;
 }
 
 /*ハンバーガーアイコン*/
