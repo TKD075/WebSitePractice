@@ -64,8 +64,8 @@ ul{
     width: 50%;
     margin: 0 auto;
     padding: 1em;
-    list-style-position: outside;
     text-align: left;
+    padding-left: 2em; /* ← 追加 */
 }
 
 .multi-line{
