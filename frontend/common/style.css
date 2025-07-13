@@ -67,6 +67,10 @@ ul{
     margin: 0;
 }
 
+li{
+    padding-left: 1em;
+}
+
 .multi-line{
     white-space: pre-line;
 }
