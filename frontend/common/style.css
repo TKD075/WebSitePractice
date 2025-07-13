@@ -22,12 +22,14 @@ h4{
     color: black;
     font-size: 20px;
     padding: 1em;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: 1em;
 }
 
 h4+p{
     padding: 1em;
-    margin: 0;
+    margin-left: 1em;
+    margin-bottom: 0;
 }
 
 p{
@@ -65,8 +67,10 @@ td{
 ul{
     padding: 1em;
     text-align: left;
-    padding-left: 2em;
     margin: 0;
+    padding-left: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 li{
