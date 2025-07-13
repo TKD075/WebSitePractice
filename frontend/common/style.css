@@ -89,6 +89,8 @@ td{
     margin: 0;
     margin-left: 1em;
     padding: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .subtitle li{
