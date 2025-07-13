@@ -64,7 +64,7 @@ ul{
     width: 50%;
     margin: 0 auto;
     padding: 1em;
-    list-style-position: inside;
+    list-style-position: outside;
     text-align: left;
 }
 
