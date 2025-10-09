@@ -3,6 +3,13 @@ HTML/CSSとJavaScriptを使ったウェブサイトの作成を練習するリ�
 作成したものを閲覧できるリンク
 https://tkd075.github.io/WebSitePractice/
 
+## リファクタリング中のため、ページが見れなくなることも多くなると思います。
+予定しているリファクタ
+1. TypeScript化(Next.js)
+2. フルスタック化(Python(FastAPI)を使用して何かする予定)
+3. 私有RaspberryPiにコンテナ化
+4. GitHubPagesからドメイン変更
+
 ## 要改善点
 ~~ハンバーガーマークのactionをオンにした後、クリック入力が反映されない~~<br>
 メニューとマークのz軸を設定することで改善<br>
