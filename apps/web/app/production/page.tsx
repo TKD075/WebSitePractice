@@ -1,0 +1,76 @@
+{/*旧 frontend/production/index.html */}
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>制作物一覧</title>
+        <link rel="stylesheet" href="/WebSitePractice/frontend/common/style.css">
+        <script src="/WebSitePractice/frontend/common/script.js" defer></script>
+        <link rel="icon" href="/WebSitePractice/frontend/favicon.ico/favicon.png">
+    </head>
+    <body>
+        <h1>
+            MY PRODUCTIONS
+        </h1>
+        <div class="timeline">
+            <div class="prod">
+                <h4>本ページ</h4>
+                <p>
+                    HTML/CSS, JavaScriptの勉強とポートフォリオ作成を兼ねたGitHubページ<br>
+                    Webアプリケーションに関する練習台は全てここに置く予定<br>
+                    <a href="https://github.com/TKD075/WebSitePractice" target="_blank" rel="noopener noreferrer">
+                        GitHubリポジトリ
+                        <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="15px" height="15px"> </object>
+                    </a>
+                </p>
+            </div>
+            <div class="prod">
+                <h4>ナンプレ</h4>
+                <p>
+                    専門学校の個人制作で作成<br>
+                    制作期間が1週間だったため粗削りだが、初めて一人で作成した<br>
+                    解答盤面を1つ記憶させており、行列交換により6^8通りの盤面を作成可能<br>
+                    テンキー、数字キー、ボタンで数字入力ができ、矢印キーで移動できるなどUIに拘った<br>
+                    それ以外の実装機能、非実装機能についてはリポジトリのREADMEから<br>
+                    <a href="https://github.com/TKD075/NumberPlace" target="_blank" rel="noopener noreferrer">
+                        GitHubリポジトリ
+                        <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="15px" height="15px"> </object>
+                    </a>
+                </p>
+            </div>
+            <div class="prod">
+                <h4>Git/GitHubまとめ</h4>
+                <p>
+                    チーム制作の際に必要そうだったので作成したが結局不要だったリポジトリ<br>
+                    その後友人との勉強会の際に体系的に教える必要が出来たためスライドにまとめた<br>
+                    <a href="https://docs.google.com/presentation/d/104mFNmtOw5B5-OGASpClyItZTJqcw2ET/edit?usp=drive_link&ouid=100673845596895658501&rtpof=true&sd=true">
+                        pptx資料その1
+                        <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="15px" height="15px"> </object>
+                    </a>
+                    <br>
+                    <a href="https://docs.google.com/presentation/d/147HAl3d3rjcvtoDFvTd5emWpK0bttnUO/edit?usp=sharing&ouid=100673845596895658501&rtpof=true&sd=true">
+                        pptx資料その2
+                        <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="15px" height="15px"> </object>
+                    </a>
+                </p>
+            </div>
+            <div class="prod">
+                <h4>フルスタックWebアプリケーション</h4>
+                <p>
+                    単一言語だけでない開発の繋がりや流れを知らなかったため書籍を購入して勉強<br>
+                    環境変数の追加ができず中断。基礎から学ぶため方針変更してGitHubページを作成<br>
+                    開発環境はReact(Next.js), Django(Python), MySQL, Docker, VSCode, AWSなど。<br>
+                    <a href="https://github.com/TKD075/frontend" target="_blank" rel="noopener noreferrer">
+                        フロントエンド部分
+                        <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="15px" height="15px"> </object>
+                    </a><br>
+                    <a href="https://github.com/TKD075/backend" target="_blank" rel="noopener noreferrer">
+                        バックエンド部分
+                        <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="15px" height="15px"> </object>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

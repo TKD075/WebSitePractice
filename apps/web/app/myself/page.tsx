@@ -1,0 +1,94 @@
+{/* 旧 frontend/myself/index.html*/}
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>私について</title>
+        <link rel="stylesheet" href="/WebSitePractice/frontend/common/style.css">
+        <script src="/WebSitePractice/frontend/common/script.js" defer></script>
+        <link rel="icon" href="/WebSitePractice/frontend/favicon.ico/favicon.png">
+    </head>
+    <body>
+        <h1>
+            MY SELF
+        </h1>
+        <div class="subtitle">
+            <h3>名前</h3>
+        </div>
+        <h2><ruby>武田<rt>たけだ</rt>宙之<rt>ひろゆき</rt></ruby></h2>
+        <div class="subtitle">
+            <h3>略歴</h3>
+        </div>
+        <div class="timeline">
+            <div class="year">
+                <h4>1999年 1月</h4>
+                <p>誕生</p>
+            </div>
+            <div class="year">
+                <h4>2017年 3月</h4>
+                <p>兵庫県立長田高等学校 卒業</p>
+            </div>
+            <div class="year">
+                <h4>2018年 4月</h4>
+                <p>東京理科大学理工学部情報科学科 入学</p>
+            </div>
+            <div class="year">
+                <h4>2024年 4月</h4>
+                <p>神戸電子専門学校 情報処理学科 入学</p>
+            </div>
+            <div class="year">
+                <h4>2025年 3月</h4>
+                <p>東京理科大学 退学</p>
+            </div>
+            <div class="year">
+                <h4>2026年 3月</h4>
+                <p>神戸電子専門学校 卒業見込み</p>
+            </div>
+        </div>
+        <div class="subtitle">
+            <h3>自己PR</h3>
+            <h4>挫折からの成長</h4>
+            <p>
+                大学では目標や意欲が持てず、結果的に留年を重ねて退学という形になりました。<br>
+                しかし、専門学校に進学してからは一念発起し、学業に真剣に取り組みました。<br>
+                1年分の授業内容を3か月で先取り学習し、結果的に8月1日には基本情報技術者試験に合格することができました。 
+            </p>
+            <h4>強み</h4>
+            <p>
+                私の強みは、「物事の本質を見極める力を高めること」を常に意識している点です。<br>
+                表面的な印象や先入観にとらわれず、「自分の考えは本当に正しいのか」「他に見落としている視点はないか」と自問自答を繰り返すことで、多角的に物事を捉える習慣を身につけてきました。<br>
+                この姿勢は、複雑な問題に直面したときに冷静に判断し、より本質的な解決策を導く力につながっていると感じています。<br>
+                今後も、一面的な理解に留まらず、柔軟かつ論理的に物事を捉える姿勢を大切にしていきたいと考えています。
+            </p>
+            <h4>主体的学習</h4>
+            <p>
+                私は現在、友人4名とともに「よもやま勉強会」という自主的な学習活動を行っています。<br>
+                この勉強会では、各自が興味のあるテーマや学びたい分野を無作為にリスト化し、毎週1人がその中からテーマを選び、講師役として他のメンバーに解説する形式を取っています。<br>
+                5人で1か月を一巡とし、月に4回の学習機会と1回の発表機会を持つことで、互いに刺激し合いながら学びを深めています。(私の発表内容は<a href="/WebSitePractice/frontend/production">こちら</a>に逐次更新しています)<br>
+                この取り組みを通じて、私は「学びは受け身ではなく、自らつくるものだ」という意識を強く持つようになりました。<br>
+                また、他者に伝えることを前提としたインプットは、理解の定着と論理的思考力の向上にもつながっています。<br>
+                今後もこうした場を大切にしながら、自発的な成長を継続していきたいと考えています。 
+            </p>
+            <h4>学習内容</h4>
+            <p>
+                私は現在、以下のような学習を個人で進めています。
+            </p>
+                <ul>
+                    <li>応用情報技術者試験</li>
+                    <li>Webアプリケーション開発(Next.js, Ruby on Rails, PostgreSQL, GraphQL)</li>
+                </ul>
+            <p>
+                また、現在学校での授業内容で熱意を持って取り組んでいる科目は以下の通りです。
+            </p>
+                <ul>
+                    <li>Linux</li>
+                    <li>データベース</li>
+                    <li>TCP/IP</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </p>
+        </div>
+    </body>
+</html>
