@@ -1,4 +1,5 @@
 {/* 旧 frontend/myself/index.html*/}
+{/*
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -92,3 +93,16 @@
         </div>
     </body>
 </html>
+*/}
+export default function Page() {
+    return (
+    <section>
+        <h1>
+            Myself
+        </h1>
+        <p>
+            自己紹介ページの内容。
+        </p>
+    </section>
+    );
+}

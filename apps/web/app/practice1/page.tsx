@@ -1,4 +1,5 @@
 {/*旧 frontend/practice1/index.html*/}
+{/*
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -25,3 +26,16 @@
     </table>
 </body>
 </html>
+*/}
+export default function Page() {
+    return (
+    <section>
+        <h1>
+            practice1
+        </h1>
+        <p>
+            何かしらの練習に使用
+        </p>
+    </section>
+    );
+}

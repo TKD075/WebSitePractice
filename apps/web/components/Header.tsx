@@ -1,20 +1,15 @@
 {/* 旧 header.html をReact化*/}
-<header>
-    <!--ハンバーガーアイコン-->
-    <div class = "hamburger" id="hamburger">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-    <!--メニュー-->
-    <nav class="menu" id="menu">
-        <a href="/WebSitePractice/">ホーム</a>
-        <a href="/WebSitePractice/frontend/myself">MySelf</a>
-        <a href="/WebSitePractice/frontend/production">制作物一覧</a>
-        <a href="/WebSitePractice/frontend/practice1">MySQL練習</a>
-        <a href="https://github.com/TKD075" target="_blank" rel="noopener noreferrer">
-            GitHubまとめ
-            <object data="/WebSitePractice/frontend/image/external-link-svgrepo-com.svg" width="20px" height="20px" opacity="100%"> </object>
-        </a>
-    </nav>
-</header>
+import Nav from './Nav';
+
+type HeaderProps = {
+    title?: string;
+};
+
+export default function Header({ title = 'WebSitePractice' }: HeaderProps) {
+    return (
+    <header>
+        <h1>{title}</h1>
+        <Nav />
+    </header>
+    );
+}

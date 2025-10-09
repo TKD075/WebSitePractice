@@ -1,4 +1,5 @@
 {/*トップ（旧 frontend/index.html）*/}
+{/*
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -30,3 +31,16 @@
     <img src="/WebSitePractice/frontend/image/banana.png" alt="apple">
 </body>
 </html>
+*/}
+export default function Page() {
+    return (
+    <section>
+        <h1>
+            Home
+        </h1>
+        <p>
+            トップページの内容をここに。
+        </p>
+    </section>
+    );
+}

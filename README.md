@@ -5,8 +5,8 @@ https://tkd075.github.io/WebSitePractice/
 
 ## リファクタリング中のため、ページが見れなくなることも多くなると思います。
 予定しているリファクタ
-1. TypeScript化(Next.js)
-2. フルスタック化(Python(FastAPI)を使用して何かする予定)
+1. TypeScript化(React)
+2. フルスタック化して何かする
 3. 私有RaspberryPiにコンテナ化
 4. GitHubPagesからドメイン変更
 
@@ -38,3 +38,10 @@ https://tkd075.github.io/WebSitePractice/
 - /apps/web/app/...
     - lint, envなど
 
+- フロント: React(Next.js)
+- バック: Python(FastAPI)
+- DB: postgreSQL
+- 認証: next-auth
+- コンテナ管理: Docker+docker-compose
+- CI/CD: GitHub Actions->Piへデプロイ
+- ORMは使用しない

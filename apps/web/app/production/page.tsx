@@ -1,4 +1,5 @@
 {/*旧 frontend/production/index.html */}
+{/*
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -74,3 +75,16 @@
         </div>
     </body>
 </html>
+*/}
+export default function Page() {
+    return (
+    <section>
+        <h1>
+            My Productions
+        </h1>
+        <p>
+            制作物の紹介
+        </p>
+    </section>
+    );
+}
